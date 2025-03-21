@@ -1,0 +1,35 @@
+# Maven build artifacts (exclude target/ since we’ll build inside Docker or copy only the JAR)
+target/
+
+# Git-related files
+.git
+.gitignore
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+
+# Local configuration files with sensitive data
+application.properties
+application.yml
+*.env
+
+# Dependency caches (optional, if not building in Docker)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Docker-related files (prevent recursive inclusion)
+Dockerfile
+.dockerignore
+
+# Miscellaneous
+*.md
+*.txt
