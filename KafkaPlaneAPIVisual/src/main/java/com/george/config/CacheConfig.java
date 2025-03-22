@@ -14,7 +14,7 @@ public class CacheConfig {
     @Bean
     public CacheManager cacheManager() {
         CaffeineCacheManager cacheManager = new CaffeineCacheManager("flights", "flightsByAirline");
-        cacheManager.setAsyncCacheMode(true); // Enable async caching for reactive support
+        cacheManager.setAsyncCacheMode(true); // Enable async caching for the reactive support
         cacheManager.setCaffeine(caffeineConfig());
         return cacheManager;
     }
