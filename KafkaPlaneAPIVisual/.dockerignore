@@ -1,1 +1,29 @@
+# Ignore environment files
+.env
+*.env
+config/*.env
 
+# Ignore build files
+target/
+build/
+node_modules/
+*.log
+*.out
+
+# Ignore OS and IDE-related files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+*.iml
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.yml
