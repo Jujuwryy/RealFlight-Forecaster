@@ -22,6 +22,6 @@ public class CacheConfig {
     private Caffeine<Object, Object> caffeineConfig() {
         return Caffeine.newBuilder()
             .maximumSize(500) // Max 500 entries
-            .expireAfterWrite(5, TimeUnit.MINUTES); // Expires after 5 minutes
+            .expireAfterWrite(5, TimeUnit.MINUTES); // Expires after five minutes
     }
 }
