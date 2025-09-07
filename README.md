@@ -1,4 +1,4 @@
-# RealFlight-Forecaster
+# Flight-Forecaster
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen) ![Kafka](https://img.shields.io/badge/Kafka-3.6.1-blue) ![Smile ML](https://img.shields.io/badge/Smile%20ML-3.1.1-yellow)
 
