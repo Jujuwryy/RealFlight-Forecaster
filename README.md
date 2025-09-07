@@ -2,7 +2,7 @@
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen) ![Kafka](https://img.shields.io/badge/Kafka-3.6.1-blue) ![Smile ML](https://img.shields.io/badge/Smile%20ML-3.1.1-yellow)
 
-**RealFlight-Forecaster** is a Spring Boot application that fetches real-time flight data from the AviationStack API, streams it via Apache Kafka, and uses a Random Forest machine learning model to predict flight statuses. It features reactive programming with WebFlux, caching with Caffeine, and centralized logging with AOP. This project is designed for developers and data enthusiasts interested in integrating APIs, message queues, and ML in a modern Java ecosystem.
+**Flight-Forecaster** is a Spring Boot application that fetches real-time flight data from the AviationStack API, streams it via Apache Kafka, and uses a Random Forest machine learning model to predict flight statuses. It features reactive programming with WebFlux, caching with Caffeine, and centralized logging with AOP. This project is designed for developers and data enthusiasts interested in integrating APIs, message queues, and ML in a modern Java ecosystem.
 
 ## Docker Image
 [![Docker Hub](https://img.shields.io/docker/v/jujuwry/kafkaflightpredictor/latest?label=Docker%20Hub&style=for-the-badge)](https://hub.docker.com/r/jujuwry/kafkaflightpredictor)
